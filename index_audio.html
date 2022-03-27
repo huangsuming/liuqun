@@ -51,7 +51,14 @@
         wx.ready(function() {
             document.getElementById('myaudio').play();
         });
-}
+	}
+	 
+	document.getElementById('audio').play();
+    document.addEventListener("WeixinJSBridgeReady", function() {undefined
+    // 音乐自动播放
+        document.getElementById('audio').play();
+   }, false);
+
 </script>
 	<audio id="myaudio" src="media/不得不爱.mp3" autoplay="autoplay" loop="loop" ></audio>
   </div>
