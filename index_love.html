@@ -105,19 +105,18 @@ if (!document.createElement('canvas').getContext) {
 
 <!--播放背景音乐-->
 <script>
+	//Windows浏览器端(针对谷歌内核浏览器优化)
 	window.onclick=function() {
 		var audio = document.getElementById('myaudio');
         audio.play();
 	}
-
-	$("body").one("touchstart",function() {     
-		document.getElementById('myaudio').play();
-	});
-
+	
+	//安卓浏览器端
 	document.addEventListener('touchstart', function() 
 	{undefined
 		document.getElementById('audios').play()
 	})
+
 </script>
 	<audio id="myaudio" src="media/小宝贝.mp3" autoplay="autoplay" loop="loop" ></audio>
 </body>
