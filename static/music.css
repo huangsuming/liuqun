@@ -1,0 +1,4 @@
+.pause {background-position: 0 bottom;}
+.mscBtn {height: 50px;
+background: #fff url(../media/music-control.png) no-repeat;
+display: block;}

@@ -102,7 +102,14 @@ if (!document.createElement('canvas').getContext) {
 	$("#code").typewriter();
 }
 </script>
-<audio src="media/小宝贝.mp3" autoplay="autoplay" loop preload="auto" type="audio/mp3"></audio>
 
+<!--播放背景音乐-->
+<script>
+	window.onclick=function() {
+		var audio = document.getElementById('myaudio');
+        audio.play();
+	}
+</script>
+	<audio id="myaudio" src="media/小宝贝.mp3" autoplay="autoplay" loop="loop" ></audio>
 </body>
 </html>
