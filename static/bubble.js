@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>canvas</title>
-<style type="text/css">
-* {
-	margin: 0;
-	padding: 0;
-}
-html,
-body {
-	height: 100%;
-	width: 100%;
-}
-canvas {
-	display: block;
-}
-#myCanvas {
-	background: #044e8e;
-}		
 
-</style>
-</head>
-<body>
-
-<canvas id="myCanvas" width="1600" height="248"></canvas>
-
-<script>
 //IE11+
 window.addEventListener("DOMContentLoaded", function () {
 	(function () {
@@ -286,7 +258,3 @@ window.addEventListener("DOMContentLoaded", function () {
 
 }, false)
 
-</script>
-
-</body>
-</html>

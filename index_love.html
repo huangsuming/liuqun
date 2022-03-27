@@ -1,27 +1,29 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>❤爱你❤</title>
-<link rel="shortcut icon" href="images/2022032601.ico"  type="image/x-icon"  />
-<link href="javascript/default.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src="javascript/jquery.js"></script>
-<script type="text/javascript" src="javascript/garden.js"></script>
-<script type="text/javascript" src="javascript/functions.js"></script>
-
-<style type="text/css">
-#_copy{align-items:center;background:#4494D5;border-radius:3px;color:#fff;cursor:pointer;display:flex;font-size:13px;height:30px;justify-content:center;position:absolute;width:60px;z-index:1000}#select-tooltip,#sfModal,.modal-backdrop,div[id^=reader-helper]{display:none!important}.modal-open{overflow:auto!important}._sf_adjust_body{padding-right:0!important}
-</style>
-
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>❤爱你❤</title>
+	<link rel="shortcut icon" href="images/2022032601.ico"  type="image/x-icon"  />
+	<link href="static/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="static/jquery.js"></script>
+	<script type="text/javascript" src="static/garden.js"></script>
+	<script type="text/javascript" src="static/functions.js"></script>
 </head>
 
 <body>
 
-<div id="mainDiv">
-	<div id="content" style="width: 1110px; height: 625px; margin-top: 10px; margin-left: 76.5px;">
-		<div id="code" style="margin-top: 112.5px;">
+<div id="mainDiv" >
+	<!--
+	<canvas id="myCanvas"></canvas>
+	-->
+	<div id="content" >
+		
+		<div id="code" >
 			<span class="comments">/**</span><br>
+			<!--初见-->
 			<span class="space"><span class="comments">*2022-02-13,</span><br>
+			<!--牵手-->
 			<span class="space"><span class="comments">*2022-03-06.</span><br>
 			<span class="space"><span class="comments">*/</span><br>
 			Boy name = <span class="keyword">Mr</span> HUANG<br>
@@ -48,29 +50,25 @@
 			Baby, I love you forever;<br>
 		</span></span></span></span></span></span></div>
 			
-		<div id="loveHeart">
-			<!--
-			style="background:url('images/2022032604.jpg') no-repeat center center fixed;"
-			-->
-			<canvas id="garden" width="670" height="625"></canvas>
-			<div id="words" style="position: absolute; top: 205px; left: 586.5px;">
-				<div id="messages" style="display: block;">
+		<div id="loveHeart" >
+			<canvas id="garden"></canvas>
+			<div id="words" >
+				<div id="messages" class="comments" >
 					亲爱的红柳，这是我们相爱在一起的时光。
 				<div id="elapseClock">
-					<span class="digit"></span> days <span class="digit"></span> hours <span class="digit"></span> minutes <span class="digit"></span> seconds
+					<span class="digit">timeElapse(new Date()).days</span> days 
+					<span class="digit"></span> hours 
+					<span class="digit"></span> minutes 
+					<span class="digit"></span> seconds
 				</div>
 				</div>
-				<div id="loveu" style="display: block;">
+				<div id="loveu">
 					爱你直到永永远远。<br>
 					<div class="signature">- 小黄同学</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div id="copyright">
-		<a href="#">......</a><br>
-		<a href="#">......</a><br>
-		
+
 	</div>
 </div>
 
