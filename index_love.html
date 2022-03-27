@@ -109,6 +109,10 @@ if (!document.createElement('canvas').getContext) {
 		var audio = document.getElementById('myaudio');
         audio.play();
 	}
+
+	$("body").one("touchstart",function() {     
+		document.getElementById('myaudio').play();
+	});
 </script>
 	<audio id="myaudio" src="media/小宝贝.mp3" autoplay="autoplay" loop="loop" ></audio>
 </body>
